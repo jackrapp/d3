@@ -244,7 +244,7 @@ d3.csv('assets/data/data.csv')
                 } // end of if value == chosenAxis
             }); // end of click/change x-axis
 
-            // x axis labels event listener
+        // y axis labels event listener
         yLabelsGroup.selectAll("text")
         .on("click", function() {
             // get value of selection
@@ -306,7 +306,6 @@ d3.csv('assets/data/data.csv')
 
 }; // end of makeResponsive function
 
-// Create and situate your axes and labels to the left and bottom of the chart.
 
 // Event listener for window resize.
 // When the browser window is resized, makeResponsive() is called.
