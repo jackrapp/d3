@@ -201,7 +201,7 @@ d3.csv('assets/data/data.csv')
                                 .classed('active', false)
                                 .classed('inactive', true);
                             healthcareLabel
-                                .classed('ative', false)
+                                .classed('active', false)
                                 .classed('inactive', true);
                             break;
                         }
@@ -225,7 +225,7 @@ d3.csv('assets/data/data.csv')
                                 .classed('active', false)
                                 .classed('inactive', true);
                             healthcareLabel
-                                .classed('ative', true)
+                                .classed('active', true)
                                 .classed('inactive', false);
                             break;
                         }
@@ -237,7 +237,7 @@ d3.csv('assets/data/data.csv')
                                 .classed('active', false)
                                 .classed('inactive', true);
                             healthcareLabel
-                                .classed('ative', false)
+                                .classed('active', false)
                                 .classed('inactive', true);
                         }
                     } // end of switch/case
