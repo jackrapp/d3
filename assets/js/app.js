@@ -213,7 +213,7 @@ d3.csv('assets/data/data.csv')
                                 .classed('active', true)
                                 .classed('inactive', false);
                             healthcareLabel
-                                .classed('ative', false)
+                                .classed('active', false)
                                 .classed('inactive', true);
                             break;
                         }
